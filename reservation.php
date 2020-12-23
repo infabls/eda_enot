@@ -30,9 +30,10 @@
 				</div>
 			</div>
 			<form action="/order.php" method="POST">
-				<input type="text" placeholder="Name">
-				<input type="email" placeholder="Email">
-				<!-- <input type="number" placeholder="Phone">
+				<input type="text" placeholder="Name" name="user_name">
+				<input type="email" placeholder="Email" name="user_email">
+				<input type="tel" placeholder="Phone" name="user_phone">
+				<!--
 				<input type="date" placeholder="Date" class="datepicker">
 				<input type="text" placeholder="Time"> -->
 				<!-- <textarea name="" id="" cols="30" rows="10" placeholder="Additional Message"></textarea> -->
