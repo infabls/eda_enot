@@ -108,8 +108,8 @@ Cart.initJQuery = function() {
 
   Cart.templateCompiler = function(a,b){return function(c,d){return a.replace(/#{([^}]*)}/g,function(a,e){return Function("x","with(x)return "+e).call(c,d||b||{})})}};
 
-  Cart.lineItemTemplate = "<tr>" +
-    "<td><img class='' src='#{this.image}' alt='#{this.label}' /></td>" + 
+  Cart.lineItemTemplate = "<div class='row entry'>" +
+    "<td><img class='ass' src='#{this.image}' alt='#{this.label}' /></td>" + 
     // "<td></td>" + 
     "<td>#{this.label}</td>" + 
     "<td><button type='button' class='cart-add' data-id='#{this.id}' data-quantity='-1'>-</button>#{this.quantity}<button type='button' class='cart-add' data-id='#{this.id}' data-quantity='1'>+</button></td>" + 

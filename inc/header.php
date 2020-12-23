@@ -151,6 +151,32 @@
             <ul>
                <li><button class="button"> <a class="" href="/reservation.php"></a> Оформить заказ</button></li>
                <li><button class="button"> <a class="" href="/cart.php"></a> Просмотр корзины</button></li>
+                 
+
+
+<p>Cart: <span class='cart-items-count'>0</span> item<span class='cart-items-count-plural'>s</span></p>
+<table class='cart-table'>
+  <thead>
+    <tr>
+<!--       <th>Image</th>
+      <th>Product</th>
+      <th>quantity</th>
+      <th></th>
+      <th>Price</th> -->
+    </tr>
+  </thead>
+  <tbody class='cart-line-items'>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan='4'>Subtotal</td>
+      <td class='cart-subtotal'></td>
+    </tr>
+  </tfoot>
+</table>
+<p class='cart-is-empty'>В вашей корзине пусто.</p>
+<button onclick="Cart.empty()">Очистить корзину</button>
+   <!-- end product cart -->
             </ul>
          </div>
       </div>

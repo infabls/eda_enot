@@ -24,7 +24,7 @@
         $(function() {
           Cart.initJQuery();
           Cart.on('added', function(argumentsObject) {
-           alert("You've added " + argumentsObject.item.quantity + " item(s).");
+           console.log("You've added " + argumentsObject.item.quantity + " item(s).");
          });
          $(".hidden_products").attr("value", JSON.stringify(Cart.items));
 
