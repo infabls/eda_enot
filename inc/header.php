@@ -15,11 +15,8 @@
       <link rel="stylesheet" href="css/owl.theme.css">
       <link rel="stylesheet" href="css/owl.transitions.css">
       <link rel="stylesheet" href="css/style.css">
-<<<<<<< HEAD
-      <script src="js/jquery.min.js"></script>
-=======
       <link rel="stylesheet" href="css/site.addons.css">
->>>>>>> origin/master
+      <script src="js/jquery.min.js"></script>
    </head>
    <body>
       <div class="navbar">
