@@ -15,7 +15,11 @@
       <link rel="stylesheet" href="css/owl.theme.css">
       <link rel="stylesheet" href="css/owl.transitions.css">
       <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
       <script src="js/jquery.min.js"></script>
+=======
+      <link rel="stylesheet" href="css/site.addons.css">
+>>>>>>> origin/master
    </head>
    <body>
       <div class="navbar">
@@ -115,7 +119,7 @@
       </div>
       <div class="panel-control-right">
          <div id="slide-out-right" class="side-nav">
-            <div class="row entry">
+            <!-- <div class="row entry">
                <div class="col s4"><img src="img/cart1.png" alt=""></div>
                <div class="col s6">
                   <div class="desc">
@@ -127,56 +131,38 @@
                <div class="col s2">
                   <div class="action"><i class="fa fa-remove"></i></div>
                </div>
-            </div>
-            <div class="row entry">
-               <div class="col s4"><img src="img/cart2.png" alt=""></div>
-               <div class="col s6">
-                  <div class="desc">
-                     <h6>Drink Title</h6>
-                     <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                     <h6><span>$10.00</span></h6>
-                  </div>
-               </div>
-               <div class="col s2">
-                  <div class="action"><i class="fa fa-remove"></i></div>
-               </div>
-            </div>
-            <div class="row price">
+            </div> -->
+
+            <!-- <div class="row price">
                <div class="col s8">
                   <h6>Итого</h6>
                </div>
                <div class="col s4">
                   <h6>$30.00</h6>
-               </div>
-            </div>
+               </div><span class='cart-items-count-plural'>s</span>
+            </div> -->
             <ul>
-               <li><button class="button"> <a class="" href="/reservation.php"></a> Оформить заказ</button></li>
-               <li><button class="button"> <a class="" href="/cart.php"></a> Просмотр корзины</button></li>
-                 
 
 
-<p>Cart: <span class='cart-items-count'>0</span> item<span class='cart-items-count-plural'>s</span></p>
-<table class='cart-table'>
-  <thead>
-    <tr>
-<!--       <th>Image</th>
-      <th>Product</th>
-      <th>quantity</th>
-      <th></th>
-      <th>Price</th> -->
-    </tr>
-  </thead>
-  <tbody class='cart-line-items'>
+
+
+<p>В корзине: <span class='cart-items-count'>0</span> позиций</p>
+<table class='cart-table row entry'>
+  <tbody class='cart-line-items row entry'>
   </tbody>
   <tfoot>
-    <tr>
+    <tr class="cart_footer">
       <td colspan='4'>Subtotal</td>
       <td class='cart-subtotal'></td>
     </tr>
   </tfoot>
 </table>
 <p class='cart-is-empty'>В вашей корзине пусто.</p>
-<button onclick="Cart.empty()">Очистить корзину</button>
+<div class="btn_cont">
+   <button class="button" style="width: 100%;font-size: 16px;" onclick="Cart.empty()">Очистить корзину</button>
+   <button class="button"> <a class="" style="width: 100%;font-size: 16px;color:#fff;font-weight:bold;" href="/reservation.php">Оформить заказ</a> </button>
+   <button class="button"> <a class="" style="width: 100%;font-size: 16px;color:#fff;font-weight:bold;" href="/cart.php">Просмотр корзины</a> </button>
+</div>
    <!-- end product cart -->
             </ul>
          </div>
