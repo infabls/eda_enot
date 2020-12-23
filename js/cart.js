@@ -70,13 +70,13 @@ Cart.itemsCount = function() {
   return accumulator;
 };
 
-Cart.currency = '&pound;';
+Cart.currency = ' тг';
 
 Cart.displayPrice = function(price) {
   if (price===0) return 'Free';
-  var floatPrice = price/100;
+  var floatPrice = price;
   var decimals = floatPrice==parseInt(floatPrice, 10) ? 0 : 2;
-  return Cart.currency + floatPrice.toFixed(decimals);
+  return floatPrice.toFixed(decimals) + Cart.currency;
 };
 
 Cart.linePrice = function(index) {
