@@ -22,7 +22,7 @@
             <div class="panel-control-left"><a href="index.php#" data-activates="slide-out-left" class="sidenav-control-left"><i class="fa fa-bars"></i></a></div>
             <div class="site-title">
                <a href="index.php" class="logo">
-                  <h1>Delicious</h1>
+                  <h1>Дядька Сэм</h1>
                </a>
             </div>
             <div class="panel-control-right"><a href="index.php#" data-activates="slide-out-right" class="sidenav-control-right"><i class="fa fa-shopping-bag"></i><span>2</span></a></div>
@@ -30,9 +30,9 @@
       </div>
       <div class="panel-control-left">
          <ul id="slide-out-left" class="side-nav collapsible" data-collapsible="accordion">
-            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Главная</a></li>
             <li>
-               <div class="collapsible-header"><i class="fa fa-indent"></i>Categories <span><i class="fa fa-chevron-right"></i></span></div>
+               <div class="collapsible-header"><i class="fa fa-indent"></i>Категории <span><i class="fa fa-chevron-right"></i></span></div>
                <div class="collapsible-body">
                   <ul class="categories-in collapsible" data-collapsible="accordion">
                      <li><a href="categories.php">Categories Page</a></li>
@@ -82,34 +82,34 @@
                   </ul>
                </div>
             </li>
-            <li><a href="chef.php"><i class="fa fa-cutlery"></i>Chef</a></li>
-            <li><a href="menu-grid.php"><i class="fa fa-th-large"></i>Menu Grid</a></li>
-            <li><a href="menu-list.php"><i class="fa fa-list"></i>Menu List</a></li>
-            <li><a href="product-details.php"><i class="fa fa-shopping-basket"></i>Product Details</a></li>
-            <li><a href="shopping-cart.php"><i class="fa fa-shopping-cart"></i>Shopping Cart</a></li>
-            <li><a href="reservation.php"><i class="fa fa-send"></i>Reservation</a></li>
+            <li><a href="chef.php"><i class="fa fa-cutlery"></i>Повара</a></li>
+            <li><a href="menu-grid.php"><i class="fa fa-th-large"></i>Меню сеткой</a></li>
+            <li><a href="menu-list.php"><i class="fa fa-list"></i>Меню списком</a></li>
+            <li><a href="product-details.php"><i class="fa fa-shopping-basket"></i>Страница продукта</a></li>
+            <li><a href="cart.php"><i class="fa fa-shopping-cart"></i>Корзина</a></li>
+            <li><a href="reservation.php"><i class="fa fa-send"></i>Оформление заказа</a></li>
             <li>
-               <div class="collapsible-header"><i class="fa fa-rss"></i>Blog <span><i class="fa fa-chevron-right"></i></span></div>
+               <div class="collapsible-header"><i class="fa fa-rss"></i>Статьи <span><i class="fa fa-chevron-right"></i></span></div>
                <div class="collapsible-body">
                   <ul class="side-nav-panel">
-                     <li><a href="blog.php">Blog</a></li>
-                     <li><a href="blog-single.php">Blog Single</a></li>
+                     <li><a href="blog.php">Категория блога</a></li>
+                     <li><a href="blog-single.php">Запись блога</a></li>
                   </ul>
                </div>
             </li>
             <li>
-               <div class="collapsible-header"><i class="fa fa-file-powerpoint-o"></i>Pages <span><i class="fa fa-chevron-right"></i></span></div>
+               <div class="collapsible-header"><i class="fa fa-file-powerpoint-o"></i>Страницы <span><i class="fa fa-chevron-right"></i></span></div>
                <div class="collapsible-body">
                   <ul class="side-nav-panel">
-                     <li><a href="faq.php">Faq</a></li>
-                     <li><a href="testimonial.php">Testimonial</a></li>
-                     <li><a href="404.php">404 Page</a></li>
+                     <li><a href="faq.php">Ответы на вопросы</a></li>
+                     <li><a href="testimonial.php">Отзывы</a></li>
+                     <li><a href="404.php">404 страница</a></li>
                   </ul>
                </div>
             </li>
-            <li><a href="contact.php"><i class="fa fa-envelope"></i>Contact Us</a></li>
-            <li><a href="login.php"><i class="fa fa-sign-in"></i>Login</a></li>
-            <li><a href="register.php"><i class="fa fa-user-plus"></i>Register</a></li>
+            <li><a href="contact.php"><i class="fa fa-envelope"></i>Контакты</a></li>
+            <li><a href="login.php"><i class="fa fa-sign-in"></i>Войти</a></li>
+            <li><a href="register.php"><i class="fa fa-user-plus"></i>Регистрация</a></li>
          </ul>
       </div>
       <div class="panel-control-right">
@@ -142,15 +142,15 @@
             </div>
             <div class="row price">
                <div class="col s8">
-                  <h6>Total</h6>
+                  <h6>Итого</h6>
                </div>
                <div class="col s4">
                   <h6>$30.00</h6>
                </div>
             </div>
             <ul>
-               <li><button class="button">Reservation</button></li>
-               <li><button class="button">View Cart</button></li>
+               <li><button class="button"> <a class="" href="/reservation.php"></a> Оформить заказ</button></li>
+               <li><button class="button"> <a class="" href="/cart.php"></a> Просмотр корзины</button></li>
             </ul>
          </div>
       </div>
