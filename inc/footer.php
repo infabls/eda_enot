@@ -18,7 +18,7 @@
             <div class="ft-bottom"><span>Copyright © 2020 All Rights Reserved </span></div>
          </div>
       </footer>
-      <script src="js/jquery.min.js"></script><script src="js/materialize.min.js"></script><script src="js/slick.min.js"></script><script src="js/owl.carousel.min.js"></script><script src="js/custom.js"></script>
+      <script src="js/materialize.min.js"></script><script src="js/slick.min.js"></script><script src="js/owl.carousel.min.js"></script><script src="js/custom.js"></script>
       <script src="js/cart.js"></script>
       <script type="text/javascript">
         $(function() {
