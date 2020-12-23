@@ -1,5 +1,5 @@
 <?php require 'inc/header.php'; ?>
-
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
       <div class="slider-slick app-pages">
          <div class="slider-entry">
             <img src="img/slider1.jpg" alt="">
@@ -350,4 +350,41 @@
             </div>
          </div>
       </div>
+
+      <div id="articles"></div>
+
+      <script>
+         $.ajax({
+        url: 'inc/csv.php',
+        dataType: 'json',
+        success: function(data) {
+            console.log(data); //uncomment this for debug
+
+            //the element where the articles should be appended
+            var el = $('#articles');
+
+            //empty this element first
+            el.empty();
+
+            //you can use jquery each to append all new articles
+            $.each(data, function(index, value) {
+                    console.log(value);
+                    //append every node instead of replacing it with your markup
+                    el.append(
+                       '<div class="article text">' +
+                          '<span class="format text alignRight"></span>' +
+                          '<h4>' + value[0] + '</h4>' + 
+                          '<h3>' + value[1] + '</h3>' +
+                          '<p>' + value[2] + '</p>' +
+                          '<img src="' + value[3]+ '" alt="">' +
+                       '</div>'
+                    );
+            });
+        },
+        error: function() { // Moet deze ook een parameter hebben?
+            console.log('Houston, we have a problem!');
+        }
+      });
+      </script>
+
 <?php require 'inc/footer.php'; ?>
