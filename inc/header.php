@@ -27,7 +27,10 @@
                   <h1>Дядька Сэм</h1>
                </a>
             </div>
-            <div class="panel-control-right"><a href="index.php#" data-activates="slide-out-right" class="sidenav-control-right"><i class="fa fa-shopping-bag"></i><span>2</span></a></div>
+            <div class="panel-control-right"><a href="index.php#" data-activates="slide-out-right" class="sidenav-control-right"><i class="fa fa-shopping-bag"></i>
+               <span id="cart-count-span" class="cart-items-count">
+                  
+               </span></a></div>
          </div>
       </div>
       <div class="panel-control-left">
