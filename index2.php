@@ -54,206 +54,37 @@
                </ul>
                <div id="t1">
                   <div class="row">
-                     <?php require 'inc/csvphp.php'; ?>
+                     <?php 
+                     $file="inc/categories.csv";
+                     $csv= file_get_contents($file);
+                     $array = array_map("str_getcsv", explode("\n", $csv));
+                     require 'inc/csvphp.php'; 
+                        display_products('pizza', $array);
+                     ?>
+
                   </div>
                </div>
                <div id="t2">
                   <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza1.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza2.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
+                        <?php display_products('sushi', $array); ?>
+                     
                   </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza3.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza4.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
+
                </div>
                <div id="t3">
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food1.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food2.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food3.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food4.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+                     <div class="row">
+                        <?php display_products('food', $array); ?>
                      </div>
                   </div>
                </div>
                <div id="t4">
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink1.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+                     <div class="row">
+                        <?php display_products('sushi', $array); ?>
                      </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink2.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink3.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink4.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
                </div>
                <div id="t5">
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink1.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink2.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink3.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink4.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+                     <div class="row">
+                        <?php display_all($array); ?>
                      </div>
                   </div>
                </div>
