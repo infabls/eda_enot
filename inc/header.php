@@ -33,7 +33,7 @@
                </span></a></div>
          </div>
       </div>
-      <div class="panel-control-left">
+<!--       <div class="panel-control-left">
          <ul id="slide-out-left" class="side-nav collapsible" data-collapsible="accordion">
             <li><a href="index.php"><i class="fa fa-home"></i>Главная</a></li>
             <li>
@@ -116,7 +116,7 @@
             <li><a href="login.php"><i class="fa fa-sign-in"></i>Войти</a></li>
             <li><a href="register.php"><i class="fa fa-user-plus"></i>Регистрация</a></li>
          </ul>
-      </div>
+      </div> -->
       <div class="panel-control-right">
          <div id="slide-out-right" class="side-nav">
             <!-- <div class="row entry">
@@ -159,11 +159,11 @@
 </table>
 <p class='cart-is-empty'>В вашей корзине пусто.</p>
 <div class="btn_cont">
-   <button class="button" style="width: 100%;font-size: 16px;" onclick="Cart.empty()">Очистить корзину</button>
-   <button class="button"> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Оформить заказ</a></button>
+   <a class="waves-effect waves-light btn waves-light button" onclick="Cart.empty()">Очистить корзину</a>
+      <a class="waves-effect waves-light btn modal-trigger button" href="#modal1">Оформить заказ</a>
         <!-- Modal Trigger -->
    
-   <button class="button"> <a class="" style="width: 100%;font-size: 16px;color:#fff;font-weight:bold;" href="/cart.php">Просмотр корзины</a> </button>
+<!--    <button class="button"> <a class="" style="width: 100%;font-size: 16px;color:#fff;font-weight:bold;" href="/cart.php">Просмотр корзины</a> </button> -->
 </div>
    <!-- end product cart -->
             </ul>
