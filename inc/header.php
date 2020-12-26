@@ -152,7 +152,7 @@
   </tbody>
   <tfoot>
     <tr class="cart_footer">
-      <td colspan='4'>Subtotal</td>
+      <td colspan='4'>Итого</td>
       <td class='cart-subtotal'></td>
     </tr>
   </tfoot>

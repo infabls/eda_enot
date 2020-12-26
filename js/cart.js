@@ -113,7 +113,7 @@ Cart.initJQuery = function() {
     // "<td></td>" +
     "<td>#{this.label}</td>" +
     "<tr class='cart_center'><td class='cart_event'><button type='button' class='button cart-add' data-id='#{this.id}' data-quantity='-1'>-</button><div class='cart_number'>#{this.quantity}</div><button type='button' class='button cart-add' data-id='#{this.id}' data-quantity='1'>+</button></td>" +
-    "<td>&times;</td>" +
+    "<td><button type='button' class='button cart-add' data-id='#{this.id}' data-quantity='{this.quantity}'>&times;</button></td>" +
     "<td>#{Cart.displayPrice(this.price)}</td></tr>" +
   "</tr>";
 
