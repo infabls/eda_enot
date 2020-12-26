@@ -46,11 +46,11 @@
             </div>
             <div class="content">
                <ul class="tabs">
-                  <li class="tab"><a href="index.html#t1">Все позиции</a></li>
-                  <li class="tab"><a href="index.html#t2">Пиццы</a></li>
+                  <li class="tab"><a href="index.html#t1">Пиццы</a></li>
+                  <li class="tab"><a href="index.html#t2">Суши</a></li>
                   <li class="tab"><a href="index.html#t3">Бургеры</a></li>
                   <li class="tab"><a href="index.html#t4">Напитки</a></li>
-                  <li class="tab"><a href="index.html#t5">Комбо</a></li>
+                  <li class="tab"><a href="index.html#t5">Все товары</a></li>
                </ul>
                <div id="t1">
                   <div class="row">
@@ -79,7 +79,7 @@
                </div>
                <div id="t4">
                      <div class="row">
-                        <?php display_products('sushi', $array); ?>
+                        <?php display_products('drink', $array); ?>
                      </div>
                </div>
                <div id="t5">
