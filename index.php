@@ -1,5 +1,4 @@
 <?php require 'inc/header.php'; ?>
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
       <div class="slider-slick app-pages">
          <div class="slider-entry">
             <img src="img/slider1.jpg" alt="">
@@ -47,213 +46,45 @@
             </div>
             <div class="content">
                <ul class="tabs">
-                  <li class="tab"><a href="index.html#t1">Суши</a></li>
+                  <li class="tab"><a href="index.html#t1">Все позиции</a></li>
                   <li class="tab"><a href="index.html#t2">Пиццы</a></li>
                   <li class="tab"><a href="index.html#t3">Бургеры</a></li>
                   <li class="tab"><a href="index.html#t4">Напитки</a></li>
+                  <li class="tab"><a href="index.html#t5">Комбо</a></li>
                </ul>
                <div id="t1">
                   <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/sushi1.png" alt="">
-                           <h6><a href="index.html">Sushi Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/sushi2.png" alt="">
-                           <h6><a href="index.html">Sushi Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/sushi3.png" alt="">
-                           <h6><a href="index.html">Sushi Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/sushi4.png" alt="">
-                           <h6><a href="index.html">Sushi Title</a></h6>
-                           <div class="rating">
-                              <span class="active"><i class="fa fa-star"></i></span>
-                              <span class="active"><i class="fa fa-star"></i></span>
-                              <span class="active"><i class="fa fa-star"></i></span>
-                              <span class="active"><i class="fa fa-star"></i></span>
-                              <span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
+                     <?php 
+                     $file="inc/categories.csv";
+                     $csv= file_get_contents($file);
+                     $array = array_map("str_getcsv", explode("\n", $csv));
+                     require 'inc/csvphp.php'; 
+                        display_products('pizza', $array);
+                     ?>
+
                   </div>
                </div>
                <div id="t2">
                   <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza1.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza2.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
+                        <?php display_products('sushi', $array); ?>
+                     
                   </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza3.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/pizza4.png" alt="">
-                           <h6><a href="index.html">Pizza Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
+
                </div>
                <div id="t3">
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food1.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food2.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food3.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/food4.png" alt="">
-                           <h6><a href="index.html">Food Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+                     <div class="row">
+                        <?php display_products('food', $array); ?>
                      </div>
                   </div>
                </div>
                <div id="t4">
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink1.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+                     <div class="row">
+                        <?php display_products('drink', $array); ?>
                      </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink2.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink3.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
-                     </div>
-                     <div class="col s6">
-                        <div class="entry">
-                           <img src="img/drink4.png" alt="">
-                           <h6><a href="index.html">Drink Title</a></h6>
-                           <div class="rating"><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class="active"><i class="fa fa-star"></i></span><span class=""><i class="fa fa-star"></i></span></div>
-                           <div class="price">
-                              <h5>$28</h5>
-                           </div>
-                           <button class="button">В корзину</button>
-                        </div>
+               </div>
+               <div id="t5">
+                     <div class="row">
+                        <?php display_all($array); ?>
                      </div>
                   </div>
                </div>
@@ -318,73 +149,5 @@
             </div>
          </div>
       </div>
-      <div class="testimonial app-section app-bg-dark">
-         <div class="container">
-            <div class="app-title">
-               <h4>Отзывы</h4>
-               <ul class="line">
-                  <li><i class="fa fa-snowflake-o"></i></li>
-                  <li class="line-center"><i class="fa fa-snowflake-o"></i></li>
-                  <li><i class="fa fa-snowflake-o"></i></li>
-               </ul>
-            </div>
-            <div id="testimonial" class="owl-carousel owl-theme">
-               <div class="item">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore, numquam assumenda nihil totam sunt, ipsum nemo distinctio ipsa voluptates magni enim? Totam, distinctio iure similique consequuntur quae neque nesciunt.</p>
-                  <img src="img/testimonial1.png" alt="">
-                  <h6>John Doe</h6>
-                  <strong>Web Developer</strong>
-               </div>
-               <div class="item">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore, numquam assumenda nihil totam sunt, ipsum nemo distinctio ipsa voluptates magni enim? Totam, distinctio iure similique consequuntur quae neque nesciunt.</p>
-                  <img src="img/testimonial2.png" alt="">
-                  <h6>John Doe</h6>
-                  <strong>Web Developer</strong>
-               </div>
-               <div class="item">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore, numquam assumenda nihil totam sunt, ipsum nemo distinctio ipsa voluptates magni enim? Totam, distinctio iure similique consequuntur quae neque nesciunt.</p>
-                  <img src="img/testimonial3.png" alt="">
-                  <h6>John Doe</h6>
-                  <strong>Web Developer</strong>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <div id="articles"></div>
-
-      <script>
-         $.ajax({
-        url: 'inc/csv.php',
-        dataType: 'json',
-        success: function(data) {
-            console.log(data); //uncomment this for debug
-
-            //the element where the articles should be appended
-            var el = $('#articles');
-
-            //empty this element first
-            el.empty();
-
-            //you can use jquery each to append all new articles
-            $.each(data, function(index, value) {
-                    console.log(value);
-                    //append every node instead of replacing it with your markup
-                    el.append(
-                       '<div class="article text">' +
-                          '<span class="format text alignRight"></span>' +
-                          '<h4>' + value[0] + '</h4>' + 
-                          '<h3>' + value[1] + '</h3>' +
-                          '<p>' + value[2] + '</p>' +
-                          '<img src="' + value[3]+ '" alt="">' +
-                       '</div>'
-                    );
-            });
-        },
-        error: function() { // Moet deze ook een parameter hebben?
-            console.log('Houston, we have a problem!');
-        }
-      });
-      </script>
 
 <?php require 'inc/footer.php'; ?>
