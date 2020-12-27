@@ -2,11 +2,49 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>Delicious - Cafe & Restaurant Mobile Template</title>
       <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+      <title>Кухонное хозяйство дядющки Сэма</title>
+      <meta name="description" content="Лидер на рынке вторичного сырья в Казахстане. Перерабатываем больше десятка опасных отходов. 8 лет на рынке Казахстана">
+      <meta name="keywords" content="вторсырье, переработка, вторичное сырье">
+      <meta name="robots" content="index,follow">
+      <link rel="canonical" href="https://ddsam.kz">
+
+
+
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="HandheldFriendly" content="True">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="application-name" content="Дядька Сэм">
+      <meta name="apple-mobile-web-app-title" content="Дядька Сэм">
+      <meta name="msapplication-navbutton-color" content="#e0b531">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="msapplication-starturl" content="/">
+      <meta content="#e0b531" name="theme-color">
+      <meta content="#e0b531" name="msapplication-TileColor">      
+
+      <!-- icons -->
       <link rel="shortcut icon" href="img/favicon.png">
+      
+
+      <!-- social -->
+      <meta property="og:title" content="Дядька сэм">
+      <meta property="og:type" content="article">
+      <meta property="og:url" content="https://ddsam.kz/">
+      <meta property="og:image" content="https://ddsam.kz/img/social.jpg">
+      <meta property="og:site_name" content="Дядька сэм">
+      <meta property="og:description" content="Описание соц сетей">
+      <meta property="og:locale" content="ru_RU">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Дядька сэм">
+      <meta name="twitter:image:src" content="https://ddsam.kz/img/social.jpg">
+      <meta name="twitter:url" content="https://ddsam.kz/">
+      <meta name="twitter:description" content="Описание соц сетей">
+      <!-- social -->
+      
       <link rel="stylesheet" href="/css/font-awesome.min.css">
       <link rel="stylesheet" href="/css/materialize.min.css">
       <link rel="stylesheet" href="/css/slick.css">
