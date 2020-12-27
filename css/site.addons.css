@@ -181,6 +181,12 @@
 .appl-section .modal-content .row{
   margin-bottom: 0 !important;
 }
-.modal{
+/* .modal{
   overflow: hidden;
+} */
+.menu .content .entry img, .menu-grid .entry img{
+      max-width: 950px;
+}
+.appl-section .modal-content .entry, .appl-section .modal-content .entry .tabs{
+      max-height: 100px;
 }

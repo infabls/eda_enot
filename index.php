@@ -94,25 +94,7 @@
 </div>
 </div>
 </div>
-<div class="open-hours app-section">
-   <div class="container">
-      <div class="app-title">
-         <h4>График работы</h4>
-         <ul class="line">
-            <li><i class="fa fa-snowflake-o"></i></li>
-            <li class="line-center"><i class="fa fa-snowflake-o"></i></li>
-            <li><i class="fa fa-snowflake-o"></i></li>
-         </ul>
-      </div>
-      <div class="entry">
-         <h5>Monday - Saturday</h5>
-         <h6>07.00 AM - 12.00 PM</h6>
-         <div class="dividing"></div>
-         <h5>Sunday</h5>
-         <h6>Open 24 Hours</h6>
-      </div>
-   </div>
-</div>
+
 <div class="offers">
    <div class="app-title">
       <h4>Наши преимущества</h4>
@@ -152,5 +134,23 @@
       </div>
    </div>
 </div>
-
+<div class="open-hours app-section">
+   <div class="container">
+      <div class="app-title">
+         <h4>График работы</h4>
+         <ul class="line">
+            <li><i class="fa fa-snowflake-o"></i></li>
+            <li class="line-center"><i class="fa fa-snowflake-o"></i></li>
+            <li><i class="fa fa-snowflake-o"></i></li>
+         </ul>
+      </div>
+      <div class="entry">
+         <h5>Monday - Saturday</h5>
+         <h6>07.00 AM - 12.00 PM</h6>
+         <div class="dividing"></div>
+         <h5>Sunday</h5>
+         <h6>Open 24 Hours</h6>
+      </div>
+   </div>
+</div>
 <?php require 'inc/footer.php'; ?>

@@ -21,7 +21,7 @@
    <body>
       <div class="navbar">
          <div class="container">
-            <div class="panel-control-left"><a href="index.php#" data-activates="slide-out-left" class="sidenav-control-left"><i class="fa fa-bars"></i></a></div>
+           <!--  <div class="panel-control-left"><a href="index.php#" data-activates="slide-out-left" class="sidenav-control-left"><i class="fa fa-bars"></i></a></div> -->
             <div class="site-title">
                <a href="index.php" class="logo">
                   <h1>Дядька Сэм</h1>
