@@ -160,7 +160,7 @@
 <p class='cart-is-empty'>В вашей корзине пусто.</p>
 <div class="btn_cont">
    <a class="waves-effect waves-light btn waves-light button" onclick="Cart.empty()">Очистить корзину</a>
-      <a class="waves-effect waves-light btn modal-trigger button" href="#modal1">Оформить заказ</a>
+      <a class="waves-effect waves-light btn modal-trigger button" href="#modalzer">Оформить заказ</a>
         <!-- Modal Trigger -->
    
 <!--    <button class="button"> <a class="" style="width: 100%;font-size: 16px;color:#fff;font-weight:bold;" href="/cart.php">Просмотр корзины</a> </button> -->

@@ -1,6 +1,23 @@
-1,Пицца,Описание,500,/img/cart1.png,pizza
-2,Суши,Описание,300,/img/cart2.png,sushi
-3,Бургер,Описание,4900,/img/cart1.png,food
-4,Кола,Описание,500,/img/cart2.png,drink
-5,Кола2,Описание2,50022,/img/cart1.png,drink
-6,Спрайт,Спрайтик ,200,/img/cart2.png,drink
+1,Филаделифия,"(Сыр творожный , лосось ) 220 гр",100,img/sushi/filadelfia/DSC_8705.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+2,Дракон ,"(угорь копченый, сыр творожный, унаги соус, кунжут)220 гр",100,img/sushi/drakon/DSC_8716.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+3,Запеченный ролл,"(креветки тигровые, сыр творожный, японский омлет, огурчик, соус тобико) 250 гр",100,img/sushi/zapecheniy/DSC_8727.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+4,Калифорния,"(креветки, авокадо, огурец, тобико) 200гр",100,img/sushi/kalifornia/DSC_8743.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+5,Унаги,"(Угорь, омлет, сыр, кунжут, огурец) 220 гр",100,img/sushi/unagi/DSC_8755.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+6,Жареный,"(Лосось слабосоленый, сыр, огурец, тобико, темпура, сухари панко) 250 гр",100,img/sushi/zhareniy/DSC_8771.jpg,sushi,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+7,Цезарь ролл,"( Курочка, сыр, черри, сухари панко) 250гр",100,img/sushi/cezar/img-1.jpg,sushi,img/sushi/cezar/img-1.jpg,img/sushi/cezar/img-2.jpg,img/sushi/cezar/img-3.jpg
+8,Цезарь с курицей,"(Салат, курочка, томаты, сухарики, пармезан, соус цезарь) 200 гр",100,img/sushi/cezar/DSC_8784.jpg,salat,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+9,Цезарь с креветками,"(Салат, креветки, томаты, сухарики, пармезан, соус цезарь) 200 гр.",100,img/sushi/cezar/DSC_8784.jpg,salat,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+11,Шампиньоны запеченные,"(шампиньоны, охотничьи колбаски, моцарелла, майонез) 200 гр.",100,img/zakuski/shamp/DSC_8834.jpg,zakus,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+12,Нагетсы,"(куриное филе, сухари панко) 200гр.",100,img/zakuski/nagets/DSC_8914.jpg,zakus,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+13,Крылышки баффало,"(куриные крылья, соус сладкий чили, кунжут) 200гр.",100,img/zakuski/krilishki/DSC_8942.jpg,zakus,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+14,Стрит ролл с колбаской,"(куриная колбаска, тортилья, сыр чеддер, айдахо, салат, помидор, лук фри, фирменный соус) 250 гр.",100,img/fastfood/stritk/DSC_3093.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+15,Стрит ролл с говядиной ,"(хрустящая курочка, тортилья, салат, помидор, пармезан, фирменный соус) 250 гр.",100,img/fastfood/stritg/DSC_3102.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+16,Стрит ролл с курицей,"(хрустящая курочка, тортилья, салат, помидор, пармезан, фирменный соус) 250 гр.",100,img/fastfood/stritku/DSC_3106.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+17,Стрит ролл с двойной колбаской,"(колбаска говяжья и куриная, тортилья, салат, айдахо, помидор, сыр чеддер, лук фри, фирменный соус) 300гр.",100,img/fastfood/stritdk/DSC_3113.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+18,Двойной бургер,"(булочка, котлета куриная, котлета говяжья, салат, помидор, огурец маринованный , чеддер, лук репчатый, лук фри, фирменные соусы) 400 гр.",100,img/fastfood/dburger/DSC_3137.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+19,Бургер с говядиной BBQ,"(котлета говяжья, помидор, салат, лук, маринованный огурчик, соус фирменный) 250гр.",100,img/fastfood/bbq/DSC_3154.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+20,Чиз бургер,"(булочка , котлета говяжья, помидор, салат, лук, маринованный огурчик, чеддер, соус) 250 гр.",100,img/fastfood/cheez/DSC_3161.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+21,Цезарь бургер,"(булочка, котлета куриная, чеддер, салат, помидор, лук фри, соус цезарь) 250 гр.",100,img/fastfood/cezar/DSC_3187.jpg,fastfood,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+22,Кола,Бутылка и напиток,100,img/sushi/cezar/DSC_8784.jpg,drink,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+23,Спрайт,Бутылка и напиток,100,img/sushi/cezar/DSC_8784.jpg,drink,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg
+24,Фанта,Бутылка и напиток,100,img/sushi/cezar/DSC_8784.jpg,drink,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg,img/sushi/filadelfia/DSC_8705.jpg

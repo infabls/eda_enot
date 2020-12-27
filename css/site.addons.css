@@ -1,3 +1,6 @@
+/* *{
+  font-family: 'Montserrat-Bold', sans-serif !important;
+} */
 .panel-control-right img{
   width: 100px;
 }
@@ -42,14 +45,14 @@
   margin-bottom: 10px;
 }
 
-                          .vendor-item {
+.vendor-item {
     margin-bottom: 16px;
     box-sizing: border-box;
     border-radius: 16px;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.04), 0px -2px 8px 0px rgba(0,0,0,0.04);
     font-size: 0;
 }
-                           .vendor-item__link {
+.vendor-item__link {
     display: block;
     position: relative;
     background-color: #fff;
@@ -63,12 +66,13 @@
     position: relative;
     min-height: 164px;
 }.vendor-item__cover {
-    height: 164px;
+    height: 265px;
     display: block;
     font-size: 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+        background-position-y: center;
 }
 .vendor-item__wrap {
     display: block;
@@ -147,6 +151,36 @@
     background-color: #f6f6f6;
     border-radius: 16px;
 }
-.vendor-item:hover {
+.appl-section .entry:hover {
     transform: translateY(-4px);
+    box-shadow: 0px 7px 19px -1px rgba(172,172,179,0.3) !important;
+}
+.appl-section .entry, .menu-grid .entry{
+  margin-bottom: 20px;
+}
+/* .vendor-item__title-text-mini{
+  font-size: 16px;
+} */
+.cards{
+  min-height: 505px !important;
+}
+.appl-section .entry{
+  min-height: 485px !important;
+}
+.appl-section .menu .content .tabs .tab,.appl-section .tabs,.appl-section .tabs .tab{
+  height: auto; 
+}
+.appl-section .modal-content .entry,.appl-section .modal-content .entry .tabs{
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+ .appl-section .modal-content  .entry:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+.appl-section .modal-content .row{
+  margin-bottom: 0 !important;
+}
+.modal{
+  overflow: hidden;
 }
