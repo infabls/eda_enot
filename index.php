@@ -7,7 +7,7 @@
          <div class="container">
             <h2>Delicious Food & Drink</h2>
             <p>Find your need now</p>
-            <a class="button" href="index.html">Shop Now</a>
+            <a class="button" href="/">Shop Now</a>
          </div>
       </div>
    </div>
@@ -18,7 +18,7 @@
          <div class="container">
             <h2>Cafe & Restaurant</h2>
             <p>Find your need now</p>
-            <a class="button" href="index.html">Shop Now</a>
+            <a class="button" href="/">Shop Now</a>
          </div>
       </div>
    </div>
@@ -29,7 +29,7 @@
          <div class="container">
             <h2>Delicious & Tasteful</h2>
             <p>Find your need now</p>
-            <a class="button" href="index.html">Shop Now</a>
+            <a class="button" href="/">Shop Now</a>
          </div>
       </div>
    </div>
@@ -46,11 +46,11 @@
       </div>
       <div class="content">
          <ul class="tabs">
-            <li class="tab"><a href="index.html#t1">Пиццы</a></li>
-            <li class="tab"><a href="index.html#t2">Суши</a></li>
-            <li class="tab"><a href="index.html#t3">Бургеры</a></li>
-            <li class="tab"><a href="index.html#t4">Напитки</a></li>
-            <li class="tab"><a href="index.html#t5">Все блюда</a></li>
+            <li class="tab"><a href="/#t1">Пиццы</a></li>
+            <li class="tab"><a href="/#t2">Суши</a></li>
+            <li class="tab"><a href="/#t3">Бургеры</a></li>
+            <li class="tab"><a href="/#t4">Напитки</a></li>
+            <li class="tab"><a href="/#t5">Все блюда</a></li>
          </ul>
          <div id="t1">
             <div class="row">
