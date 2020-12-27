@@ -7,23 +7,23 @@
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="HandheldFriendly" content="True">
       <link rel="shortcut icon" href="img/favicon.png">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/materialize.min.css">
-      <link rel="stylesheet" href="css/slick.css">
-      <link rel="stylesheet" href="css/slick-theme.css">
-      <link rel="stylesheet" href="css/owl.carousel.css">
-      <link rel="stylesheet" href="css/owl.theme.css">
-      <link rel="stylesheet" href="css/owl.transitions.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/site.addons.css">
-      <script src="js/jquery.min.js"></script>
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/css/materialize.min.css">
+      <link rel="stylesheet" href="/css/slick.css">
+      <link rel="stylesheet" href="/css/slick-theme.css">
+      <link rel="stylesheet" href="/css/owl.carousel.css">
+      <link rel="stylesheet" href="/css/owl.theme.css">
+      <link rel="stylesheet" href="/css/owl.transitions.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/site.addons.css">
+      <script src="/js/jquery.min.js"></script>
    </head>
    <body>
       <div class="navbar">
          <div class="container">
             <div class="panel-control-left"><a href="index.php#" data-activates="slide-out-left" class="sidenav-control-left"><i class="fa fa-bars"></i></a></div>
             <div class="site-title">
-               <a href="index.php" class="logo">
+               <a href="/" class="logo">
                   <h1>Дядька Сэм</h1>
                </a>
             </div>
@@ -33,9 +33,9 @@
                </span></a></div>
          </div>
       </div>
-<!--       <div class="panel-control-left">
+      <div class="panel-control-left">
          <ul id="slide-out-left" class="side-nav collapsible" data-collapsible="accordion">
-            <li><a href="index.php"><i class="fa fa-home"></i>Главная</a></li>
+            <li><a href="/"><i class="fa fa-home"></i>Главная</a></li>
             <li>
                <div class="collapsible-header"><i class="fa fa-indent"></i>Категории <span><i class="fa fa-chevron-right"></i></span></div>
                <div class="collapsible-body">
@@ -116,7 +116,7 @@
             <li><a href="login.php"><i class="fa fa-sign-in"></i>Войти</a></li>
             <li><a href="register.php"><i class="fa fa-user-plus"></i>Регистрация</a></li>
          </ul>
-      </div> -->
+      </div> 
       <div class="panel-control-right">
          <div id="slide-out-right" class="side-nav">
             <!-- <div class="row entry">
