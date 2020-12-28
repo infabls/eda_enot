@@ -23,11 +23,11 @@ $(function() {
         $(this).parent().siblings().find("i").removeClass("fa-minus"),
         $(this).find("i").toggleClass("fa-minus")
     }),
-    $("#testimonial").owlCarousel({
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        singleItem: !0
-    }),
+    // $("#testimonial").owlCarousel({
+    //     slideSpeed: 300,
+    //     paginationSpeed: 400,
+    //     singleItem: !0
+    // }),
     $("ul.tabs").tabs(),
     $(".datepicker").pickadate({
         selectMonths: !0,

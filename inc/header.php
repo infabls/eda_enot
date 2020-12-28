@@ -49,9 +49,9 @@
       <link rel="stylesheet" href="/css/materialize.min.css">
       <link rel="stylesheet" href="/css/slick.css">
       <link rel="stylesheet" href="/css/slick-theme.css">
-      <link rel="stylesheet" href="/css/owl.carousel.css">
-      <link rel="stylesheet" href="/css/owl.theme.css">
-      <link rel="stylesheet" href="/css/owl.transitions.css">
+      <!-- <link rel="stylesheet" href="/css/owl.carousel.css"> -->
+      <!-- <link rel="stylesheet" href="/css/owl.theme.css"> -->
+      <!-- <link rel="stylesheet" href="/css/owl.transitions.css"> -->
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/site.addons.css">
       <script src="/js/jquery.min.js"></script>

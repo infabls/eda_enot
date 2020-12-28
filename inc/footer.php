@@ -38,7 +38,7 @@
   </div>
       <script src="/js/materialize.min.js"></script>
       <script src="/js/slick.min.js"></script>
-      <script src="/js/owl.carousel.min.js"></script>
+      <!-- <script src="/js/owl.carousel.min.js"></script> -->
       <script src="/js/custom.js"></script>
       <script src="/js/cart.js"></script>
       <script type="text/javascript">
