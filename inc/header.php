@@ -55,6 +55,7 @@
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/site.addons.css">
       <script src="/js/jquery.min.js"></script>
+      <script src="/js/lazy.js"></script>
    </head>
    <body>
       <div class="navbar">
