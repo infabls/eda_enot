@@ -96,13 +96,20 @@ function display_products($category,$array) {
 
 }
 function display_all ($array) {
+	require_once 'mobileDetect.php';
+	$detect = new Mobile_Detect;
+	$mob = $detect->isMobile();
 	for ($i=0; $i < count($array); $i++) { 
 		?>
 		<div class="col s6 cards">
 			<div class="entry">
 				<a href="#" class="vendor-item__link">
 					<span class="vendor-item__images">
-						<span data-src="<?=$array[$i][4]?>" class="vendor-item__cover lazyload"></span>
+						<?php if ($mob): ?>
+								<img data-src="/mobile/<?=$array[$i][4]?>" class="vendor-item__cover lazyload"></img>
+						<?php else: ?>
+								<img data-src="<?=$array[$i][4]?>" class="vendor-item__cover lazyload"></img>
+						<?php endif ?>
 					</span> <!----> 
 					<span class="vendor-item__wrap">
 						<span class="vendor-item__headrow">
