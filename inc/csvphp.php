@@ -25,7 +25,6 @@ function display_products($category,$array) {
 								<span class="vendor-item__title">
 									<h3 title="<?=$array[$i][1]?>" class="vendor-item__title-text"><?=$array[$i][1]?></h3>
 								</span>
-
 							</span>
 							<span class="vendor-item__row">
 								<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
@@ -33,12 +32,6 @@ function display_products($category,$array) {
 									65 мин
 								</span>
 								<span class="vendor-item__info-item"><?=$array[$i][3]?>₸</span> 
-					<!-- 			<span class="vendor-item__stars rating rating--xsmall rating--in-card">
-									<span class="rating__row rating__row--xsmall">
-                               <span class="rating__value rating__value--xsmall rating__value--yellow rating__value--medium rating--in-card__value">4,7</span>
-                             </span>
-                             
-                         </span> -->
                      </span>
                      <span class="vendor-item__row">
                      	<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk"><?=$array[$i][2]?></span>
@@ -53,7 +46,7 @@ function display_products($category,$array) {
              data-price='<?=$array[$i][3]?>'
              data-image='<?=$array[$i][4]?>'>В корзину</button>
          </div>
-         <div id="modal<?=$array[$i][0]?>" class="modal">
+        <div id="modal<?=$array[$i][0]?>" class="modal">
          	<div class="modal-content">
          				<div class="entry">
 				<div class="row">
@@ -88,7 +81,7 @@ function display_products($category,$array) {
 				</div>
 			</div>
          		</div>
-         </div>
+        </div>
      </div>
      <?php 
  }
@@ -116,7 +109,6 @@ function display_all ($array) {
 							<span class="vendor-item__title">
 								<h3 title="<?=$array[$i][1]?>" class="vendor-item__title-text"><?=$array[$i][1]?></h3>
 							</span>
-
 						</span>
 						<span class="vendor-item__row">
 							<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
@@ -124,13 +116,6 @@ function display_all ($array) {
 								65 мин
 							</span>
 							<span class="vendor-item__info-item"><?=$array[$i][3]?>₸</span> 
-					<!-- 		<span class="vendor-item__stars rating rating--xsmall rating--in-card">
-								<span class="rating__row rating__row--xsmall">
-                              <span class="rating__value rating__value--xsmall rating__value--yellow rating__value--medium rating--in-card__value">4,7</span>
-                             </span>
-                          
-
-                         </span> -->
                          <span class="vendor-item__row">
                          	<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk"><?=$array[$i][2]?></span>
                          </span>
