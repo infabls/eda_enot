@@ -34,7 +34,7 @@
       </div>
    </div>
 </div>
-<div class="menu app-section">
+<div class="menu app-section appl-section">
    <div class="container">
       <div class="app-title">
          <h4>Наше меню</h4>
@@ -46,11 +46,20 @@
       </div>
       <div class="content">
          <ul class="tabs">
+<<<<<<< HEAD
             <li class="tab"><a href="/#t1">Пиццы</a></li>
             <li class="tab"><a href="/#t2">Суши</a></li>
             <li class="tab"><a href="/#t3">Бургеры</a></li>
             <li class="tab"><a href="/#t4">Напитки</a></li>
             <li class="tab"><a href="/#t5">Все блюда</a></li>
+=======
+            <li class="tab"><a href="index.html#t1">Суши</a></li>
+            <li class="tab"><a href="index.html#t2">Салаты</a></li>
+            <li class="tab"><a href="index.html#t3">Закуска</a></li>
+            <li class="tab"><a href="index.html#t4">Напитки</a></li>
+            <li class="tab"><a href="index.html#t5">Фастфуд</a></li>
+            <li class="tab"><a href="index.html#t6">Все меню</a></li>
+>>>>>>> origin/master
          </ul>
          <div id="t1">
             <div class="row">
@@ -59,32 +68,32 @@
                $csv= file_get_contents($file);
                $array = array_map("str_getcsv", explode("\n", $csv));
                require 'inc/csvphp.php'; 
-               display_products('pizza', $array);
+               display_products('sushi', $array);
                ?>
 
             </div>
          </div>
          <div id="t2">
             <div class="row">
-               <?php display_products('sushi', $array); ?>
-
-
-
+               <?php display_products('salat', $array); ?>
             </div>
-
          </div>
          <div id="t3">
             <div class="row">
-               <?php display_products('food', $array); ?>
+               <?php display_products('zakus', $array); ?>
             </div>
          </div>
-      </div>
       <div id="t4">
          <div class="row">
             <?php display_products('drink', $array); ?>
          </div>
-      </div>
+      </div>      
       <div id="t5">
+         <div class="row">
+            <?php display_products('fastfood', $array); ?>
+         </div>
+      </div>      
+      <div id="t6">
          <div class="row">
             <?php display_all($array); ?>
          </div>
@@ -93,25 +102,7 @@
 </div>
 </div>
 </div>
-<div class="open-hours app-section">
-   <div class="container">
-      <div class="app-title">
-         <h4>График работы</h4>
-         <ul class="line">
-            <li><i class="fa fa-snowflake-o"></i></li>
-            <li class="line-center"><i class="fa fa-snowflake-o"></i></li>
-            <li><i class="fa fa-snowflake-o"></i></li>
-         </ul>
-      </div>
-      <div class="entry">
-         <h5>Monday - Saturday</h5>
-         <h6>07.00 AM - 12.00 PM</h6>
-         <div class="dividing"></div>
-         <h5>Sunday</h5>
-         <h6>Open 24 Hours</h6>
-      </div>
-   </div>
-</div>
+
 <div class="offers">
    <div class="app-title">
       <h4>Наши преимущества</h4>
@@ -151,5 +142,23 @@
       </div>
    </div>
 </div>
-
+<div class="open-hours app-section">
+   <div class="container">
+      <div class="app-title">
+         <h4>График работы</h4>
+         <ul class="line">
+            <li><i class="fa fa-snowflake-o"></i></li>
+            <li class="line-center"><i class="fa fa-snowflake-o"></i></li>
+            <li><i class="fa fa-snowflake-o"></i></li>
+         </ul>
+      </div>
+      <div class="entry">
+         <h5>Monday - Saturday</h5>
+         <h6>07.00 AM - 12.00 PM</h6>
+         <div class="dividing"></div>
+         <h5>Sunday</h5>
+         <h6>Open 24 Hours</h6>
+      </div>
+   </div>
+</div>
 <?php require 'inc/footer.php'; ?>
