@@ -13,7 +13,7 @@
    </div>
    <div class="slider-entry">
       <div class="overlay"></div>
-      <img src="img/slider2.jpg" alt="">
+      <img class="lazyload" data-src="img/slider2.jpg" alt="">
       <div class="caption">
          <div class="container">
             <h2>Cafe & Restaurant</h2>
@@ -24,7 +24,7 @@
    </div>
    <div class="slider-entry">
       <div class="overlay"></div>
-      <img src="img/slider3.jpg" alt="">
+      <img class="lazyload" data-src="img/slider3.jpg" alt="">
       <div class="caption">
          <div class="container">
             <h2>Delicious & Tasteful</h2>
