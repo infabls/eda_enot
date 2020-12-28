@@ -3,6 +3,12 @@
 #RewriteCond %{SERVER_PORT} !^443$
 #RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 
+# Set Expires Headers
+<FilesMatch ".(ico|html|php|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Expires "Thu, 15 Jan 2022 20:00:00 GMT"
+</FilesMatch>
+
+
 # remove php extensions
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
