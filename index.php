@@ -5,31 +5,68 @@
       <div class="overlay"></div>
       <div class="caption">
          <div class="container">
-            <h2>Delicious Food & Drink</h2>
-            <p>Find your need now</p>
+            <h2>При заказе до 16:00 скидка 15%*</h2>
+            <p>*Подробности уточняйте у оператора </p>
             <a class="button" href="/">Shop Now</a>
          </div>
       </div>
    </div>
-   <div class="slider-entry">
-      <div class="overlay"></div>
-      <img class="lazyload" data-src="img/slider2.jpg" alt="">
-      <div class="caption">
-         <div class="container">
-            <h2>Cafe & Restaurant</h2>
-            <p>Find your need now</p>
-            <a class="button" href="/">Shop Now</a>
-         </div>
-      </div>
-   </div>
+
    <div class="slider-entry">
       <div class="overlay"></div>
       <img class="lazyload" data-src="img/slider3.jpg" alt="">
       <div class="caption">
          <div class="container">
-            <h2>Delicious & Tasteful</h2>
+           <h2>Подпишись в инстаграм и получай скидку 10%</h2>
             <p>Find your need now</p>
             <a class="button" href="/">Shop Now</a>
+         </div>
+      </div>
+   </div>   
+   <div class="slider-entry">
+<!--       <div class="overlay"></div> -->
+      <img class="lazyload" data-src="img/kombo1.jpg" alt="">
+      <div class="caption">
+         <div class="container">
+         <!--    <h2>НОВИНКА</h2> -->
+<!--             <p>Find your need now</p>
+            <a class="button" href="/">Shop Now</a> -->
+         </div>
+      </div>
+   </div>   <div class="slider-entry">
+<!--       <div class="overlay"></div> -->
+      <img class="lazyload" data-src="img/kombo2.jpg" alt="">
+      <div class="caption">
+         <div class="container">
+         <!--    <h2>НОВИНКА</h2> -->
+<!--             <p>Find your need now</p>
+            <a class="button" href="/">Shop Now</a> -->
+         </div>
+      </div>
+   </div>   
+   <div class="slider-entry">
+      <div class="overlay"></div>
+      <img class="lazyload" data-src="img/slider3.jpg" alt="">
+      <div class="caption">
+         <div class="container">
+            <h2>Скоро в нашем меню появятся вкуснейшие пиццы от Дяди Сэма</h2>
+            <p>Find your need now</p>
+            <a class="button" href="/">Shop Now</a>
+         </div>
+      </div>
+   </div>   
+   <div class="slider-entry">
+      <div class="overlay"></div>
+      <img class="lazyload" data-src="img/slider3.jpg" alt="">
+      <div class="caption">
+         <div class="container">
+            <h2>Кейтеринг (выездное обслуживание)</h2>
+            <p>   подготовка меню и расчет стоимости меню
+   тестинг – предварительная дегустация блюд их для оценки заказчиками
+   планирование пространства
+   сценарий кейтеринга  – планирование времени, составление схемы обслужтвания
+   менеджмент кейтеринга – составление транспортного плана, списки персонала, схемы ввоза и вывоза.</p>
+            <!-- <a class="button" href="/">Shop Now</a> -->
          </div>
       </div>
    </div>
@@ -104,15 +141,15 @@
          <div class="col s6">
             <div class="entry">
                <i class="fa fa-cutlery"></i>
-               <h5>Master Chef</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+               <h5>ГОТОВИМ НА ГРИЛЕ</h5>
+               <p>В отличии от других способов приготовления гриль не требует использование растительного масла, а это значит вы можете не переживать за своё здоровье!</p>
             </div>
          </div>
          <div class="col s6">
             <div class="entry">
                <i class="fa fa-list"></i>
-               <h5>Many Menu</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+               <h5>УНИКАЛЬНОСТЬ НАШЕЙ КУХНИ.</h5>
+               <p>Наше меню было разработано Шеф - поваром 6 разряда, поэтому вы можете быть уверены в уникальном вкусе!</p>
             </div>
          </div>
       </div>
@@ -120,15 +157,15 @@
          <div class="col s6">
             <div class="entry">
                <i class="fa fa-birthday-cake"></i>
-               <h5>Food Cake</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+               <h5>УПАКОВКА.</h5>
+               <p>Мы используем продуманную систему упаковки для сохранения первоначального вида и вкуса нашей американской кухни!</p>
             </div>
          </div>
          <div class="col s6">
             <div class="entry">
                <i class="fa fa-glass"></i>
-               <h5>Juice Drink</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+               <h5>ПРЕДЗАКАЗ.</h5>
+               <p>На нашем сайте вы можете оформить заказ до 16:00 на любое удобное для вас время и получить скидку 15%. Вы экономите свое время и деньги!</p>
             </div>
          </div>
       </div>
@@ -145,11 +182,11 @@
          </ul>
       </div>
       <div class="entry">
-         <h5>Monday - Saturday</h5>
-         <h6>07.00 AM - 12.00 PM</h6>
+         <h5>Ежедневно</h5>
+         <h6>Часы работы с 12:00 до 22:00</h6>
          <div class="dividing"></div>
-         <h5>Sunday</h5>
-         <h6>Open 24 Hours</h6>
+         <h5>ул. Ауэзова проспект 10</h5>
+         <h6>Среднее время доставки -  60 минут </h6>
       </div>
    </div>
 </div>

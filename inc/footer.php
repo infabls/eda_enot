@@ -10,12 +10,11 @@
             </ul>
             <div class="tel-fax-mail">
                <ul>
-                  <li><span>Tel:</span> 900000002</li>
-                  <li><span>Вацап:</span> 0400000098</li>
-                  <li><span>Email:</span> info@youremail.com</li>
+                  <li><span>Телефон:</span> <a href="tel:+77769674545">+77769674545</a></li>
+                  <li><span>WhatsApp:</span><a href="https://wa.me/77769674545">+77769674545</a></li>
                </ul>
             </div>
-            <div class="ft-bottom"><span><a href="http://itarget.kz/">iTarget.kz</a>, Copyright © 2020 All Rights Reserved </span></div>
+            <div class="ft-bottom"><span><a href="http://itarget.kz/">iTarget.kz</a>, Copyright © 2020 Все права защищены </span></div>
          </div>
       </footer>
 
