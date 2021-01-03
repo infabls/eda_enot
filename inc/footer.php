@@ -11,7 +11,7 @@
             <div class="tel-fax-mail">
                <ul>
                   <li><span>Телефон:</span> <a href="tel:+77769674545">+77769674545</a></li>
-                  <li><span>WhatsApp:</span><a href="https://wa.me/77769674545">+77769674545</a></li>
+                  <li><span>WhatsApp:</span><a target="_blank" href="https://wa.me/77769674545">+77769674545</a></li>
                </ul>
             </div>
             <div class="ft-bottom"><span><a href="http://itarget.kz/">iTarget.kz</a>, Copyright © 2020 Все права защищены </span></div>
@@ -49,8 +49,24 @@
          });
 
          $(".hidden_products").attr("value", JSON.stringify(Cart.items));
-
+         $(".clickmepls").click(function (){
+            $('html, body').animate({
+                scrollTop: $(".appl-section").offset().top
+            }, 200);
         });
+        var topPos = $('#catfixneed').offset().top;
+        $(window).scroll(function() { 
+            var bottomPos = $('.offers').offset().top;
+            var top = $(document).scrollTop();
+            if (top > topPos || top < bottomPos) {
+                $('#catfixneed').addClass('fixed'); 
+            }
+            if (top < topPos || top > bottomPos) {
+                $('#catfixneed').removeClass('fixed');
+            } 
+        });
+    });
+    
         
       </script>
       </body>

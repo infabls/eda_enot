@@ -82,13 +82,13 @@
          </ul>
       </div>
       <div class="content">
-         <ul class="tabs">
-            <li class="tab"><a href="index.html#t1">Суши</a></li>
-            <li class="tab"><a href="index.html#t2">Салаты</a></li>
-            <li class="tab"><a href="index.html#t3">Закуска</a></li>
-            <li class="tab"><a href="index.html#t4">Напитки</a></li>
-            <li class="tab"><a href="index.html#t5">Фастфуд</a></li>
-            <li class="tab"><a href="index.html#t6">Все меню</a></li>
+         <ul class="tabs" id="catfixneed">
+            <li class="tab"><a href="index.html#t1" class="clickmepls">Суши</a></li>
+            <li class="tab"><a href="index.html#t2" class="clickmepls">Салаты</a></li>
+            <li class="tab"><a href="index.html#t3" class="clickmepls">Закуска</a></li>
+            <li class="tab"><a href="index.html#t4" class="clickmepls">Напитки</a></li>
+            <li class="tab"><a href="index.html#t5" class="clickmepls">Фастфуд</a></li>
+            <li class="tab"><a href="index.html#t6" class="clickmepls">Все меню</a></li>
          </ul>
          <div id="t1">
             <div class="row">
