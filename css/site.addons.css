@@ -13,10 +13,25 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; */
 }
+.navbar{
+  height: 70px;
+}
 .navbar .container{
       display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  max-width: 50px;
+  margin-right: 10px;
+}
+.panel-control-right  .righ-logo{
+  max-width: 100%;
+  width: 260px;
+  height: auto;
 }
 .cart-line-items,tfoot{
   width: 280px;
@@ -164,15 +179,21 @@
 .appl-section .entry, .menu-grid .entry{
   margin-bottom: 20px;
 }
-/* .vendor-item__title-text-mini{
-  font-size: 16px;
-} */
+.tel-fax-mail-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tel-fax-mail-head img{
+  margin-right: 10px;
+}
+.tel-fax-mail-head a{
+  color: #fff;
+}
 .cards{
   min-height: 505px !important;
 }
-.appl-section .entry{
-  min-height:945px !important;
-}
+
 .appl-section .menu .content .tabs .tab,.appl-section .tabs,.appl-section .tabs .tab{
   height: auto; 
 }
@@ -190,11 +211,19 @@
 /* .modal{
   overflow: hidden;
 } */
-.menu .content .entry img, .menu-grid .entry img{
-      max-width: 950px;
+.appl-section .entry{
+  min-height:670px !important;
 }
-.appl-section .modal-content .entry, .appl-section .modal-content .entry .tabs{
-      max-height: 100px;
+.menu .content .entry img, .menu-grid .entry img{
+      max-width: 300px;
+      height: 450px;
+      margin: 0 auto;
+}
+/* .menu .content .entry img, .menu-grid .entry img{
+      max-width: 950px;
+} */
+.appl-section .modal-content .entry, .appl-section .modal-content .entry .tabs,.modal-content .entry .tabs img{
+      max-height: 150px !important;
 }
 .modal{
   max-height: 85% !important;
@@ -212,3 +241,14 @@
         z-index: 1001;
         width: 100%;
     }
+
+    .modal-content .entry img{
+      max-width: 100% !important;
+      height: 550px !important;
+    }  
+    .modal-content .entry{
+      box-shadow: none !important;
+    }
+/*       {
+      max-height: 100px !important;
+    } */
