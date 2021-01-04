@@ -230,6 +230,7 @@
 }
 .modal-content img{
   max-height: 500px !important;
+<<<<<<< HEAD
 }
 
 /*фиксированное меню*/
@@ -252,3 +253,6 @@
 /*       {
       max-height: 100px !important;
     } */
+=======
+}
+>>>>>>> parent of 3ddf6d2... add fixed funct to category menu block

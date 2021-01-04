@@ -82,6 +82,7 @@
          </ul>
       </div>
       <div class="content">
+<<<<<<< HEAD
          <ul class="tabs" id="catfixneed">
             <li class="tab"><a href="index.html#t1" class="clickmepls">Ролы</a></li>
             <li class="tab"><a href="index.html#t5" class="clickmepls">Стритфуд</a></li>
@@ -91,6 +92,15 @@
             <li class="tab"><a href="index.html#t4" class="clickmepls">Напитки</a></li>
             
             <li class="tab"><a href="index.html#t6" class="clickmepls">Все меню</a></li>
+=======
+         <ul class="tabs">
+            <li class="tab"><a href="index.html#t1">Суши</a></li>
+            <li class="tab"><a href="index.html#t2">Салаты</a></li>
+            <li class="tab"><a href="index.html#t3">Закуска</a></li>
+            <li class="tab"><a href="index.html#t4">Напитки</a></li>
+            <li class="tab"><a href="index.html#t5">Фастфуд</a></li>
+            <li class="tab"><a href="index.html#t6">Все меню</a></li>
+>>>>>>> parent of 3ddf6d2... add fixed funct to category menu block
          </ul>
          <div id="t1">
             <div class="row">
