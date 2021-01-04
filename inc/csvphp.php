@@ -11,7 +11,7 @@ function display_products($category,$array) {
 		if ($array[$i][5] == $category) {
 			?>
 			<div class="col s6 cards">
-				<div class="entry">
+				<div class="entry maincard">
 					<a href="#modal<?=$array[$i][0]?>" class="vendor-item__link modal-trigger">
 						<span class="vendor-item__images">
 							<?php if ($mob): ?>
@@ -96,7 +96,7 @@ function display_products($category,$array) {
 		for ($i=0; $i < count($array); $i++) { 
 			?>
 			<div class="col s6 cards">
-				<div class="entry">
+				<div class="entry maincard">
 					<a href="#" class="vendor-item__link">
 						<span class="vendor-item__images">
 							<?php if ($mob): ?>

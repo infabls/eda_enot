@@ -2,11 +2,15 @@
        <div class="container">
         <h6>Подписывайтесь на нас в соц сетях!</h6>
         <ul class="icon-social">
-<!--                <li class="facebook"><a href="index.php"><i class="fa fa-facebook"></i></a></li>
-               <li class="twitter"><a href="index.php"><i class="fa fa-twitter"></i></a></li>
-               <li class="google"><a href="index.php"><i class="fa fa-google"></i></a></li> -->
-               <li class="instagram"><a href="index.php"><i class="fa fa-instagram"></i></a></li><li class="instagram"><a href="index.php"><i class="fa fa-whatsapp"></i></a></li>
-               <!-- <li class="rss"><a href="index.php"><i class="fa fa-rss"></i></a></li> -->
+               <li class="instagram">
+                <a href="https://www.instagram.com/ddsam_ukg">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li><li class="instagram">
+                <a href="index.php">
+                  <i class="fa fa-whatsapp"></i>
+                </a>
+              </li>
              </ul>
              <div class="tel-fax-mail">
                <ul>

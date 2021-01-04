@@ -59,7 +59,7 @@
       <div class="container">
          <div class="tel-fax-mail-head">
             <img src="https://img.icons8.com/color/48/000000/whatsapp--v6.png"/>
-            <a href="https://wa.me/77769674545">+77769674545</a>
+            <a href="https://wa.me/77769674545">+7 776 967 45 45</a>
          </div>
          <div class="site-title">
             <a href="/" class="logo">

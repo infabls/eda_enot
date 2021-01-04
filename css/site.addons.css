@@ -189,11 +189,15 @@
 }
 .tel-fax-mail-head a{
   color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 .cards{
   min-height: 505px !important;
 }
-
+.appl-section .tabs{
+  margin-top: 10px;
+}
 .appl-section .menu .content .tabs .tab,.appl-section .tabs,.appl-section .tabs .tab{
   height: auto; 
 }
@@ -211,8 +215,11 @@
 /* .modal{
   overflow: hidden;
 } */
-.appl-section .entry{
-  min-height:670px !important;
+.appl-section .cards .modal .entry{
+  min-height:600px !important;
+}
+.maincard{
+    min-height:670px !important;
 }
 .menu .content .entry img, .menu-grid .entry img{
       max-width: 300px;
@@ -229,7 +236,7 @@
   max-height: 85% !important;
 }
 .modal-content img{
-  max-height: 500px !important;
+ /*  max-height: 500px !important; */
 }
 
 /*фиксированное меню*/
@@ -246,7 +253,7 @@
 }
     .modal-content .entry img{
       max-width: 100% !important;
-      height: 550px !important;
+      height: 450px !important;
     }  
     .modal-content .entry{
       box-shadow: none !important;
