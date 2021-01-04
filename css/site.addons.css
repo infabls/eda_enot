@@ -230,7 +230,6 @@
 }
 .modal-content img{
   max-height: 500px !important;
-<<<<<<< HEAD
 }
 
 /*фиксированное меню*/
@@ -242,7 +241,9 @@
         z-index: 1001;
         width: 100%;
     }
-
+.side-nav{
+  z-index: 1003;
+}
     .modal-content .entry img{
       max-width: 100% !important;
       height: 550px !important;
@@ -253,6 +254,3 @@
 /*       {
       max-height: 100px !important;
     } */
-=======
-}
->>>>>>> parent of 3ddf6d2... add fixed funct to category menu block
