@@ -241,9 +241,7 @@
         z-index: 1001;
         width: 100%;
     }
-.side-nav{
-  z-index: 1003;
-}
+
     .modal-content .entry img{
       max-width: 100% !important;
       height: 550px !important;
