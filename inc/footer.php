@@ -7,7 +7,7 @@
                   <i class="fa fa-instagram"></i>
                 </a>
               </li><li class="instagram">
-                <a href="index.php">
+                <a href="https://wa.me/77769674545">
                   <i class="fa fa-whatsapp"></i>
                 </a>
               </li>

@@ -7,7 +7,7 @@
          <div class="container">
             <h2>При заказе до 16:00 скидка 15%*</h2>
             <p>*Подробности уточняйте у оператора </p>
-            <a class="button" href="/">Shop Now</a>
+           <!--  <a class="button" href="/">Shop Now</a> -->
          </div>
       </div>
    </div>
