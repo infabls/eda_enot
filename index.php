@@ -18,8 +18,9 @@
       <div class="caption">
          <div class="container">
            <h2>Подпишись в инстаграм и получай скидку 10%</h2>
-            <p>Find your need now</p>
-            <a class="button" href="/">Shop Now</a>
+           <a class="inst" href="https://www.instagram.com/ddsam_ukg"><img src="/img/inst.png" alt=""><span>ddsam_ukg</span></a>
+<!--             <p>Find your need now</p>
+            <a class="button" href="/">Shop Now</a> -->
          </div>
       </div>
    </div>   
@@ -50,8 +51,8 @@
       <div class="caption">
          <div class="container">
             <h2>Скоро в нашем меню появятся вкуснейшие пиццы от Дяди Сэма</h2>
-            <p>Find your need now</p>
-            <a class="button" href="/">Shop Now</a>
+<!--             <p>Find your need now</p>
+            <a class="button" href="/">Shop Now</a> -->
          </div>
       </div>
    </div>   
