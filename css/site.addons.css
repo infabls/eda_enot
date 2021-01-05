@@ -173,7 +173,17 @@
     border-radius: 16px;
   }
   .slider-slick img{
-    object-fit: contain;
+/*     object-fit: contain; */
+  }
+  .open-hours{
+    background-position-y: center;
+  }
+  .page-404{
+    height: 55vh;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .inst{
     display: flex;
@@ -233,7 +243,7 @@
   overflow: hidden;
   } */
   .appl-section .cards .modal .entry{
-    min-height:600px !important;
+    min-height:560px !important;
   }
   .maincard{
     min-height:685px !important;
@@ -242,6 +252,9 @@
     max-width: 300px;
     height: 450px;
     margin: 0 auto;
+  }
+  .about_img{
+    max-width: 96px;
   }
 /* .menu .content .entry img, .menu-grid .entry img{
       max-width: 950px;
@@ -270,16 +283,26 @@
     }
     .modal-content .entry img{
       max-width: 100% !important;
-      height: 450px !important;
+      height: 400px !important;
     }  
+    .modal .modal-content{
+      padding: 20px;
+    }
     .modal-content .entry{
       box-shadow: none !important;
     }
 /*       {
       max-height: 100px !important;
       } */
-     .appl-section .modal{
-      width: 90%;
+      .appl-section .modal{
+        width: 90%;
+      }
+      .modal .modal-footer{
+        display: flex;
+        justify-content: center;
+      }
+      .modal .modal-footer .button{
+        margin: 10px;
       }
       @media (max-width:480px) {
         .row .col.s6{

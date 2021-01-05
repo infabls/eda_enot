@@ -39,7 +39,7 @@
               <label for="kaspi">Kaspi QR</label>
             </div>
             <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Отправить</a>
+<!--               <a href="#!" class="modal-close waves-effect waves-green btn-flat">Отправить</a> -->
               <button type="submit" class="button">Заказать</button>
             </div>
           </form>

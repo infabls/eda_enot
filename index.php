@@ -17,7 +17,7 @@
       <img class="lazyload" data-src="img/slider3.jpg" alt="">
       <div class="caption">
          <div class="container">
-           <h2>Подпишись в инстаграм и получай скидку 10%</h2>
+           <h2>Подпишись на наш инстаграм и получай скидку 10%</h2>
            <a class="inst" target="_blank" rel="nofollow" href="https://www.instagram.com/ddsam_ukg"><img src="/img/inst.png" alt=""><span>ddsam_ukg</span></a>
 <!--             <p>Find your need now</p>
             <a class="button" href="/">Shop Now</a> -->
@@ -26,7 +26,7 @@
    </div>   
    <div class="slider-entry">
 <!--       <div class="overlay"></div> -->
-      <img class="lazyload" data-src="img/kombo1.jpg" alt="">
+      <img style="object-fit: contain;" class="lazyload" data-src="img/kombo1.jpg" alt="">
       <div class="caption">
          <div class="container">
          <!--    <h2>НОВИНКА</h2> -->
@@ -36,7 +36,7 @@
       </div>
    </div>   <div class="slider-entry">
 <!--       <div class="overlay"></div> -->
-      <img class="lazyload" data-src="img/kombo2.jpg" alt="">
+      <img style="object-fit: contain;" class="lazyload" data-src="img/kombo2.jpg" alt="">
       <div class="caption">
          <div class="container">
          <!--    <h2>НОВИНКА</h2> -->
@@ -50,7 +50,7 @@
       <img class="lazyload" data-src="img/slider3.jpg" alt="">
       <div class="caption">
          <div class="container">
-            <h2>Скоро в нашем меню появятся вкуснейшие пиццы от Дяди Сэма</h2>
+            <h2>Скоро в нашем меню появятся <br> вкуснейшие пиццы от Дяди Сэма</h2>
 <!--             <p>Find your need now</p>
             <a class="button" href="/">Shop Now</a> -->
          </div>
@@ -91,7 +91,7 @@
             
             <li class="tab"><a href="index.html#t4" class="clickmepls">Напитки</a></li>
             
-            <li class="tab"><a href="index.html#t6" class="clickmepls">Все меню</a></li>
+          <!--   <li class="tab"><a href="index.html#t6" class="clickmepls">Все меню</a></li> -->
          </ul>
          <div id="t1">
             <div class="row">
@@ -125,11 +125,11 @@
             <?php display_products('fastfood', $array); ?>
          </div>
       </div>      
-      <div id="t6">
+ <!--      <div id="t6">
          <div class="row">
-            <?php display_all($array); ?>
+            // <?php //display_all($array); ?>
          </div>
-      </div>
+      </div> -->
    </div>
 </div>
 </div>
@@ -143,14 +143,14 @@
       <div class="row">
          <div class="col s6">
             <div class="entry">
-               <i class="fa fa-cutlery"></i>
+              <img class="about_img" src="/img/grill.png" alt="">
                <h5>ГОТОВИМ НА ГРИЛЕ</h5>
                <p>В отличии от других способов приготовления гриль не требует использование растительного масла, а это значит вы можете не переживать за своё здоровье!</p>
             </div>
          </div>
          <div class="col s6">
             <div class="entry">
-               <i class="fa fa-list"></i>
+               <img class="about_img" src="/img/chef.png" alt="">
                <h5>УНИКАЛЬНОСТЬ НАШЕЙ КУХНИ.</h5>
                <p>Наше меню было разработано Шеф - поваром 6 разряда, поэтому вы можете быть уверены в уникальном вкусе!</p>
             </div>
@@ -159,14 +159,14 @@
       <div class="row">
          <div class="col s6">
             <div class="entry">
-               <i class="fa fa-birthday-cake"></i>
+               <img class="about_img" src="/img/pack.png" alt="">
                <h5>УПАКОВКА.</h5>
                <p>Мы используем продуманную систему упаковки для сохранения первоначального вида и вкуса нашей американской кухни!</p>
             </div>
          </div>
          <div class="col s6">
             <div class="entry">
-               <i class="fa fa-glass"></i>
+               <img class="about_img" src="/img/pre.png" alt="">
                <h5>ПРЕДЗАКАЗ.</h5>
                <p>На нашем сайте вы можете оформить заказ до 16:00 на любое удобное для вас время и получить скидку 15%. Вы экономите свое время и деньги!</p>
             </div>
@@ -186,7 +186,7 @@
       </div>
       <div class="entry">
          <h5>Ежедневно</h5>
-         <h6>Часы работы с 12:00 до 22:00</h6>
+         <h6>Часы работы с 11:00 до 22:00</h6>
          <div class="dividing"></div>
          <h5>ул. Ауэзова проспект 10</h5>
          <h6>Среднее время доставки -  60 минут </h6>

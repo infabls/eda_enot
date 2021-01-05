@@ -22,7 +22,7 @@ if (!isset($_POST['submit'])) {
 	$mssg = "%0A";
 	$vsegoTovarov = count($ass);
 	for ($i=0; $i < $vsegoTovarov; $i++) {
-	 	$mssg .= 'Название ' . $ass[$i]->label . '. Количество: ' . $ass[$i]->quantity . '. Стоимость ' . $ass[$i]->price * $ass[$i]->quantity . '%0A';
+	 	$mssg .= 'Название: ' . $ass[$i]->label . '. Количество: ' . $ass[$i]->quantity . '. Стоимость ' . $ass[$i]->price * $ass[$i]->quantity . '%0A';
 		//итоговая сумма заказа
 		$totalprice += $ass[$i]->price * $ass[$i]->quantity;
 	}
@@ -30,8 +30,8 @@ if (!isset($_POST['submit'])) {
 
 	$arr = array(
 	  'Имя пользователя: ' => $name,
+	  'Адрес: ' => $email,
 	  'Телефон: ' => $phone,
-	  'Email: ' => $email,
 	  'Итоговая сумма: ' => $totalprice . ' тг',
 	  'Способ оплаты: ' => $bill_type,
 	  'Детали заказа: ' => $mssg,
@@ -45,7 +45,7 @@ if (!isset($_POST['submit'])) {
 	// отправка в телеграм
 	$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 	if ($sendToTelegram) {
-	  header('Location: index.php');
+	  header('Location: tnk.php');
 	} else {
 	  echo "К сожалению не получилось отправить вашу заявку. Вы можете сделать это по телефону";
 	  // при ошибке сохранять в локальный файл 
