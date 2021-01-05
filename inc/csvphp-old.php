@@ -1,7 +1,7 @@
 <?php 
 // качаем категории и страницы из гугл диска и сохраняем на сервере
-// $categories = file_get_contents('http://docs.google.com/spreadsheets/d/1R87zOW2-990ATjZmc9qHu_CLqkFvLdqFJlY3TWzHgmU/export?format=csv&gid=1689854645');
-// file_put_contents('categories.csv', $categories);
+$categories = file_get_contents('http://docs.google.com/spreadsheets/d/1R87zOW2-990ATjZmc9qHu_CLqkFvLdqFJlY3TWzHgmU/export?format=csv&gid=1689854645');
+file_put_contents('categories.csv', $categories);
 
 function display_products($category,$array) {
 	require_once 'mobileDetect.php';
@@ -12,7 +12,7 @@ function display_products($category,$array) {
 			?>
 			<div class="col s6 cards">
 				<div class="entry maincard">
-					<a class="vendor-item__link modal-trigger">
+					<a href="#modal<?=$array[$i][0]?>" class="vendor-item__link modal-trigger">
 						<span class="vendor-item__images">
 							<?php if ($mob): ?>
 								<img data-src="/mobile/<?=$array[$i][4]?>" class="vendor-item__cover lazyload"></img>
@@ -47,6 +47,42 @@ function display_products($category,$array) {
 						data-price='<?=$array[$i][3]?>'
 						data-image='<?=$array[$i][4]?>'>В корзину</button>
 					</div>
+					<div id="modal<?=$array[$i][0]?>" class="modal">
+						<div class="modal-content">
+							<div class="entry">
+								<div class="row">
+									<div id="choose1<?=$array[$i][0]?>" class="col s12">
+										<img class='lazyload' data-src="<?=$array[$i][6]?>" alt="">
+									</div>
+									<div id="choose2<?=$array[$i][0]?>" class="col s12">
+										<img class='lazyload' data-src="<?=$array[$i][7]?>" alt="">
+									</div>
+									<div id="choose3<?=$array[$i][0]?>" class="col s12">
+										<img class='lazyload' data-src="<?=$array[$i][8]?>" alt="">
+									</div>
+									<div class="col s12">
+										<ul class="tabs">
+											<li class="tab col s4">
+												<a href="product-details.html#choose1<?=$array[$i][0]?>">
+													<img class='lazyload' data-src="<?=$array[$i][6]?>" alt="">
+												</a>
+											</li>
+											<li class="tab col s4">
+												<a href="product-details.html#choose2<?=$array[$i][0]?>">
+													<img class='lazyload' data-src="<?=$array[$i][7]?>" alt="">
+												</a>
+											</li>
+											<li class="tab col s4">
+												<a href="product-details.html#choose3<?=$array[$i][0]?>">
+													<img class='lazyload' data-src="<?=$array[$i][8]?>" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<?php 
 			}
@@ -61,7 +97,7 @@ function display_products($category,$array) {
 			?>
 			<div class="col s6 cards">
 				<div class="entry maincard">
-					<a class="vendor-item__link">
+					<a href="#" class="vendor-item__link">
 						<span class="vendor-item__images">
 							<?php if ($mob): ?>
 								<img data-src="/mobile/<?=$array[$i][4]?>" class="vendor-item__cover lazyload"></img>
