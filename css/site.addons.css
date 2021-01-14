@@ -1,6 +1,3 @@
-/* *{
-  font-family: 'Montserrat-Bold', sans-serif !important;
-  } */
   .panel-control-right img{
     width: 100px;
   }
@@ -9,83 +6,81 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-  /* -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; */
-}
-.navbar{
-  height: 70px;
-}
-.navbar .container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo{
-  display: flex;
-}
-.logo img{
-  max-width: 50px;
-  margin-right: 10px;
-}
-.panel-control-right  .righ-logo{
-  max-width: 100%;
-  width: 260px;
-  height: auto;
-}
-.cart-line-items,tfoot{
-  width: 280px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.cart_center,.cart_footer{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: space-around;
-}
-.cart_event{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-}
-.cart_number{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.btn_cont{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-direction: column;
-}
-.btn_cont .button{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  }
+  .navbar{
+    height: 70px;
+  }
+  .navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    max-width: 50px;
+    margin-right: 10px;
+  }
+  .panel-control-right  .righ-logo{
+    max-width: 100%;
+    width: 260px;
+    height: auto;
+  }
+  .cart-line-items,tfoot{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .cart_center,.cart_footer{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cart_event{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+  .cart_number{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .btn_cont{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn_cont .button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-.vendor-item {
-  margin-bottom: 16px;
-  box-sizing: border-box;
-  border-radius: 16px;
-  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.04), 0px -2px 8px 0px rgba(0,0,0,0.04);
-  font-size: 0;
-}
-.vendor-item__link {
-  display: block;
-  position: relative;
-  background-color: #fff;
-  color: #2e2e33;
-  border-radius: inherit;
-  overflow: hidden;
-}
-.vendor-item__images {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  min-height: 164px;
-  }.vendor-item__cover {
+  .vendor-item {
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.04), 0px -2px 8px 0px rgba(0,0,0,0.04);
+    font-size: 0;
+  }
+  .vendor-item__link {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    color: #2e2e33;
+    border-radius: inherit;
+    overflow: hidden;
+  }
+  .vendor-item__images {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    min-height: 164px;
+  }
+  .vendor-item__cover {
     height: 265px;
     display: block;
     font-size: 0;
@@ -172,15 +167,12 @@
     background-color: #f6f6f6;
     border-radius: 16px;
   }
-  .slider-slick img{
-/*     object-fit: contain; */
-  }
   .open-hours{
     background-position-y: center;
   }
   .page-404{
     height: 55vh;
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -239,9 +231,7 @@
   .appl-section .modal-content .row{
     margin-bottom: 0 !important;
   }
-/* .modal{
-  overflow: hidden;
-  } */
+
   .appl-section .cards .modal .entry{
     min-height:560px !important;
   }
@@ -256,60 +246,56 @@
   .about_img{
     max-width: 96px;
   }
-/* .menu .content .entry img, .menu-grid .entry img{
-      max-width: 950px;
-      } */
-      .appl-section .modal-content .entry, .appl-section .modal-content .entry .tabs,.modal-content .entry .tabs img{
-        max-height: 150px !important;
-      }
-      .modal{
-        max-height: 85% !important;
-      }
-      .modal-content img{
-       /*  max-height: 500px !important; */
-     }
 
-     /*фиксированное меню*/
-     .fixed {
-      box-shadow: #0000004a 1px 0 2px 6px;
-      top: 60px;
-      left: 0;
-      position: fixed;
-      z-index: 1000;
+  .appl-section .modal-content .entry, .appl-section .modal-content .entry .tabs,.modal-content .entry .tabs img{
+    max-height: 150px !important;
+  }
+  .modal{
+    max-height: 85% !important;
+  }
+
+  /*фиксированное меню*/
+  .fixed {
+    box-shadow: #0000004a 1px 0 2px 6px;
+    top: 60px;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+  }
+  .side-nav{
+    z-index: 1001;
+  }
+  .modal-content .entry img{
+    max-width: 100% !important;
+    height: 400px !important;
+  }  
+  .modal .modal-content{
+    padding: 20px;
+  }
+  .modal-content .entry{
+    box-shadow: none !important;
+  }
+
+  .appl-section .modal{
+    width: 90%;
+  }
+  .modal .modal-footer{
+    display: flex;
+    justify-content: center;
+  }
+  .modal .modal-footer .button{
+    margin: 10px;
+  }
+  .vdesc{
+    display: block;
+  }
+  .vmob{
+    display: none;  
+  }
+  @media (max-width:425px) {
+    .row .col.s6{
       width: 100%;
+      max-width: 100%;
     }
-    .side-nav{
-      z-index: 1001;
-    }
-    .modal-content .entry img{
-      max-width: 100% !important;
-      height: 400px !important;
-    }  
-    .modal .modal-content{
-      padding: 20px;
-    }
-    .modal-content .entry{
-      box-shadow: none !important;
-    }
-/*       {
-      max-height: 100px !important;
-      } */
-      .appl-section .modal{
-        width: 90%;
-      }
-      .modal .modal-footer{
-        display: flex;
-        justify-content: center;
-      }
-      .modal .modal-footer .button{
-        margin: 10px;
-      }
-      @media (max-width:480px) {
-        .row .col.s6{
-          width: 100%;
-          max-width: 100%;
-        }
-        .site-title{
-          display: none;
-        }
-      }
+  }

@@ -1,0 +1,17 @@
+  @media (max-width:625px) {
+    .site-title{
+      display: none !important;
+    }
+    .vmob{
+    	display: block;
+    }
+    .vdesc{
+    	display: none !important;
+    }
+    .slider-slick .slider-entry{
+    	height: 750px;
+    }
+    .slider-slick .caption{
+    	max-width: 425px;
+    }
+  }
