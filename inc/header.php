@@ -60,12 +60,19 @@
       <div class="container">
          <div class="site-title">
             <a href="/" class="logo">
-               <img src="/img/logo.png" alt="logo"><h1>Дядя Сэм</h1>
+               <img src="/img/logo.png" alt="logo">
+<div class="logo_cont">
+   <div class="left"><h1>Дядя Сэм</h1></div>
+   <div class="right">
+      Доставка Американской кухни в Усть-Каменогорске
+   </div>
+</div>
+               
             </a>
 
          </div>
          <div class="tel-fax-mail-head">
-            <a target="_blank" rel="nofollow" href="https://wa.me/77769674545/"><img src="https://img.icons8.com/color/48/000000/whatsapp--v6.png"/></a>
+            <a target="_blank" rel="nofollow" href="tel:+77769674545">Звонок по телефону</a>
             <a href="tel:+77769674545">+7 776 967 45 45</a>
          </div>
 

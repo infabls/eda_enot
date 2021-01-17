@@ -8,7 +8,7 @@
     width: 100%;
   }
   .navbar{
-    height: 70px;
+    height: 80px;
   }
   .navbar .container{
     display: flex;
@@ -21,6 +21,23 @@
   .logo img{
     max-width: 50px;
     margin-right: 10px;
+  }
+  .logo_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .logo_cont .right{
+    color: #fff;
+    font-family: Montserrat;
+  }
+  .logo_cont .left h1{
+    text-align-last: left;
+  }
+  .tel-fax-mail-head{
+    display: flex;
+    flex-direction: column;
+        align-items: flex-start;
   }
   .panel-control-right  .righ-logo{
     max-width: 100%;
@@ -198,11 +215,7 @@
   .appl-section .entry, .menu-grid .entry{
     margin-bottom: 20px;
   }
-  .tel-fax-mail-head{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .tel-fax-mail-head img{
     margin-right: 10px;
   }
