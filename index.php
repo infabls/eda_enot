@@ -1,7 +1,7 @@
 <?php require 'inc/header.php'; ?>
 <div class="slider-slick app-pages">
    <div class="slider-entry">
-      <img src="img/slider1.jpg" alt="">
+      <img src="img/02.jpg" alt="">
       <div class="overlay"></div>
       <div class="caption">
          <div class="container">
@@ -14,7 +14,7 @@
 
    <div class="slider-entry">
       <div class="overlay"></div>
-      <img class="lazyload" data-src="img/slider3.jpg" alt="">
+      <img class="lazyload" data-src="img/01.jpg" alt="">
       <div class="caption">
          <div class="container">
           <h2>Подпишись на наш инстаграм и получай скидку 10%</h2>
@@ -49,7 +49,7 @@
 </div>   
 <div class="slider-entry">
    <div class="overlay"></div>
-   <img class="lazyload" data-src="img/slider3.jpg" alt="">
+   <img class="lazyload" data-src="img/03.jpg" alt="">
    <div class="caption">
       <div class="container">
          <h2>Скоро в нашем меню появятся <br> вкуснейшие пиццы от Дяди Сэма</h2>
@@ -60,7 +60,7 @@
 </div>   
 <div class="slider-entry">
    <div class="overlay"></div>
-   <img class="lazyload" data-src="img/slider3.jpg" alt="">
+   <img class="lazyload" data-src="img/04.jpg" alt="">
    <div class="caption">
       <div class="container">
          <h2 style="text-align: left;">Кейтеринг (выездное обслуживание)</h2>
