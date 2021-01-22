@@ -27,10 +27,10 @@
           <div class="modal-content">
             <h4>Оформление заказа</h4>
             <br>
-            <form action="/order.php" method="POST">
+            <form action="/order.php" method="POST" id="myForm">
               <input type="text" placeholder="Имя" name="user_name" required="">
-              <input type="text" placeholder="Адрес" name="user_email" required=" ">
-              <input type="tel" placeholder="Телефон" name="user_phone" required="">
+              <input type="text" placeholder="Адрес" name="user_email" required="">
+              <input type="tel" placeholder="Телефон" name="user_phone" required>
               <input type="hidden" class='hidden_products' name="products" value="">
               <p>Оплата:</p>
               <input type="radio" id="nal" name="contact" value="cash">
@@ -40,7 +40,7 @@
             </div>
             <div class="modal-footer">
 <!--               <a href="#!" class="modal-close waves-effect waves-green btn-flat">Отправить</a> -->
-              <button type="submit" class="button">Заказать</button>
+              <button type="submit" class="button" id="submitBtn">Заказать</button>
             </div>
           </form>
         </div>
@@ -58,7 +58,16 @@
             Materialize.toast("Вы добавили в корзину " + argumentsObject.item.quantity + " товар(ов).", 2000)
           });
 
-          $(".hidden_products").attr("value", JSON.stringify(Cart.items));
+
+          // sending form
+          $("#submitBtn").click(function(){        
+                // add hidden products value to form
+                $(".hidden_products").attr("value", JSON.stringify(Cart.items));
+                $("#myForm").checkValidity().submit(); // Submit the form
+          });
+
+
+          
           $(".clickmepls").click(function (){
             $('html, body').animate({
               scrollTop: $(".appl-section").offset().top
