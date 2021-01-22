@@ -9,5 +9,11 @@
 		</div>
 	</div>
 	<!-- end page 404 -->
-	
+
 <?php require 'inc/footer.php'; ?>
+	<script>
+		$(function() {
+          Cart.initJQuery();
+		Cart.empty()
+		});
+	</script>
