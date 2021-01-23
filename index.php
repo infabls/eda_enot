@@ -5,7 +5,7 @@
       <div class="overlay"></div>
       <div class="caption">
          <div class="container">
-            <h2>При заказе до 16:00 скидка 15%*</h2>
+            <h2>При заказе до 16:00 стрит-ролл "Цезарь" в подарок!</h2>
             <p>*Подробности уточняйте у оператора </p>
             <!--  <a class="button" href="/">Shop Now</a> -->
          </div>
@@ -17,7 +17,7 @@
       <img class="lazyload" data-src="img/01.jpg" alt="">
       <div class="caption">
          <div class="container">
-          <h2>Подпишись на наш инстаграм и получай скидку 10%</h2>
+          <h2>Подпишись на наш инстаграм и получи картофель фри бесплатно к заказу!</h2>
           <a class="inst" target="_blank" rel="nofollow" href="https://www.instagram.com/ddsam_ukg"><img src="/img/inst.png" alt=""><span>ddsam_ukg</span></a>
 <!--             <p>Find your need now</p>
    <a class="button" href="/">Shop Now</a> -->
