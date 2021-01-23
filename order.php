@@ -1,7 +1,7 @@
 <?php 
 if (!isset($_POST['submit'])) {
 
-	/* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
+	/* https://api.telegram.org/bot1571456139:AAFyxRpYQnMMU21KUfpJj11H2cfnFbShWcE/getUpdates,
 	где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 	$name = $_POST['user_name'];
@@ -15,8 +15,8 @@ if (!isset($_POST['submit'])) {
 	} else {
 		$bill_type = 'Не указан';	
 	}
-	$token = "1415010068:AAGn5U8VZJNBzB_29-59l3nmAG4gUdZzdZE";
-	$chat_id = "424732045";
+	$token = "1571456139:AAFyxRpYQnMMU21KUfpJj11H2cfnFbShWcE";
+	$chat_id = "-426041849";
 	$ass = json_decode($_POST['products']);
 	$totalprice = 0;
 	$mssg = "%0A";

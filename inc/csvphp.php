@@ -27,10 +27,10 @@ function display_products($category,$array) {
 									</span>
 								</span>
 								<span class="vendor-item__row">
-									<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
-										<!---->
+							<!-- 		<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
+									
 										65 мин
-									</span>
+									</span> -->
 									<span class="vendor-item__info-item"><?=$array[$i][3]?>₸</span> 
 								</span>
 
@@ -76,10 +76,10 @@ function display_products($category,$array) {
 									</span>
 								</span>
 								<span class="vendor-item__row">
-									<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
-										<!---->
+							<!-- 		<span class="vendor-item__delivery-time vendor-item__delivery-time--ddk">
+										
 										65 мин
-									</span>
+									</span> -->
 									<span class="vendor-item__info-item"><?=$array[$i][3]?>₸</span>
 
 								</span>
