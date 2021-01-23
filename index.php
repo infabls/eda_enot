@@ -17,7 +17,7 @@
       <img class="lazyload" data-src="img/01.jpg" alt="">
       <div class="caption">
          <div class="container">
-          <h2>Подпишись на наш инстаграм и получи картофель фри бесплатно к заказу!</h2>
+          <h2>Подпишись на наш инстаграм, чтобы не пропустить акции!</h2>
           <a class="inst" target="_blank" rel="nofollow" href="https://www.instagram.com/ddsam_ukg"><img src="/img/inst.png" alt=""><span>ddsam_ukg</span></a>
 <!--             <p>Find your need now</p>
    <a class="button" href="/">Shop Now</a> -->
